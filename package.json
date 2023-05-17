@@ -1,0 +1,25 @@
+{
+  "name": "eslint-solid-flatconfig-test",
+  "version": "0.0.0",
+  "description": "Testing ESLint Flatconfig with eslint-plugin-solid",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "lint": "eslint .",
+    "build": "eslint . && vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^8.40.0",
+    "eslint": "^8.40.0",
+    "eslint-plugin-solid": "^0.12.1",
+    "globals": "^13.20.0",
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.10"
+  }
+}
